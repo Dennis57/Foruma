@@ -70,7 +70,7 @@ class RegisterActivity : AppCompatActivity() {
     val username = binding.etName.text.toString()
 
     if(username.isEmpty() || email.isEmpty() || password.isEmpty() || selectedPhotoUri == null) {
-      Toast.makeText(this, "Form must not be empty", Toast.LENGTH_SHORT).show()
+      Toast.makeText(this, "The form or photo must not be empty", Toast.LENGTH_SHORT).show()
       binding.progressBar.visibility = View.INVISIBLE
       binding.btnRegister.isEnabled = true
       return
