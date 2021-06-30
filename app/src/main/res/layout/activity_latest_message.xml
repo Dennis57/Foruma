@@ -42,10 +42,10 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
-            android:id="@+id/ib_sign_out"
+            android:id="@+id/ib_profile"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@drawable/baseline_logout_24"
+            android:background="@drawable/baseline_manage_accounts_20"
             android:backgroundTint="#295480"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -59,7 +59,7 @@
             android:background="@drawable/baseline_border_color_24"
             android:backgroundTint="#295480"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintRight_toLeftOf="@+id/ib_sign_out"
+            app:layout_constraintRight_toLeftOf="@+id/ib_profile"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

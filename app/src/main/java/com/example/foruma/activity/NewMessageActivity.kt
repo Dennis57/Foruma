@@ -3,6 +3,7 @@ package com.example.foruma.activity
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.foruma.databinding.ActivityNewMessageBinding
@@ -52,6 +53,7 @@ class NewMessageActivity : AppCompatActivity() {
     val newMessages: MutableList<NewMessage> = mutableListOf()
     ref.addListenerForSingleValueEvent(object : ValueEventListener {
       override fun onDataChange(snapshot: DataSnapshot) {
+        binding.tvLoading.visibility = View.INVISIBLE
         snapshot.children.forEach { dataSnapshot ->
           val uid = dataSnapshot.child("uid").value.toString()
           val username = dataSnapshot.child("username").value.toString()

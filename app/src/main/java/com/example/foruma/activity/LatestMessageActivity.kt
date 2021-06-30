@@ -46,10 +46,8 @@ class LatestMessageActivity : AppCompatActivity() {
 
     listenLatestMessages()
 
-    binding.ibSignOut.setOnClickListener {
-      auth.signOut()
-      val intent = Intent(this, RegisterActivity::class.java)
-      intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
+    binding.ibProfile.setOnClickListener {
+      val intent = Intent(this, ProfileActivity::class.java)
       startActivity(intent)
     }
 
