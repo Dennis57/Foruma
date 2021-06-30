@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Foruma</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="not_yet_registered_register_here">Not yet registered? Register here!</string>
+    <string name="select_photo">Select Photo</string>
+    <string name="select_user">Select User</string>
+    <string name="send">Send</string>
+    <string name="enter_message">Enter message</string>
+    <string name="back_button">Back Button</string>
+    <string name="hello_guys_today_i_am_coding_on_android_studio_with_kotlin">Hello guys, today I am coding on Android Studio with Kotlin!</string>
+    <string name="latest_messages">Latest Messages</string>
+    <string name="end_to_end_message_encryption">End-to-end message encryption</string>
+    <string name="foruma">Foruma</string>
+    <string name="start_by_sending_your_first_message">Start by sending your first message</string>
+    <string name="loading_user">Loading user...</string>
+    <string name="loading_messages">Loading messages...</string>
+</resources>

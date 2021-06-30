@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "168467800416",
+    "project_id": "foruma-69801",
+    "storage_bucket": "foruma-69801.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168467800416:android:1a797c2de65a6de1ebfe05",
+        "android_client_info": {
+          "package_name": "com.example.foruma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168467800416-09jjrirlv9d93m84d3n2lnllhelhs1tb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foruma",
+            "certificate_hash": "eb40d1c5dd9b0501f97e84f5419b6ba78232aee7"
+          }
+        },
+        {
+          "client_id": "168467800416-bosuvrnl1bd4aruefvfn5elsoreuvvjf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBG3sAy7KcOvB9pig3kMQx8g7fzaktprY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168467800416-bosuvrnl1bd4aruefvfn5elsoreuvvjf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

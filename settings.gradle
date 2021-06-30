@@ -1,0 +1,2 @@
+rootProject.name = "Foruma"
+include ':app'
